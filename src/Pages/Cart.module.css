@@ -1,0 +1,151 @@
+.container {
+  background-color: #ffffff;
+}
+
+.cart__text {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  margin: 80px 120px;
+}
+
+.wrapper {
+  margin-right: 100px;
+  margin-left: 100px;
+  width: 67%;
+  padding: 20px;
+  border-top: 1px solid #e5e5e5;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.item__name {
+  font-weight: 400;
+  font-size: 30px;
+  line-height: 27px;
+}
+
+.quantity {
+  text-align: center;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 160%;
+  margin-right: 25px;
+}
+
+.item__brand {
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 27px;
+}
+
+.item__price {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 18px;
+}
+
+.quantity__buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.left {
+  height: 185px;
+  float: left;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.right {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.attribute__container {
+  display: flex;
+}
+
+.cart__empty {
+  font-weight: 700;
+  font-size: 32px;
+  line-height: 40px;
+  display: flex;
+  justify-content: center;
+  margin-top: 150px;
+}
+
+.plus__minus {
+  width: 45px;
+  height: 45px;
+  background-color: transparent;
+  color: black;
+  border: 1px solid #1d1f22;
+  margin-right: 25px;
+  font-size: 25px;
+}
+
+.size__square {
+  width: 41px;
+  height: 35px;
+  border: 1px solid #1d1f22;
+  background-color: black;
+  color: white;
+  margin-right: 10px;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 18px;
+}
+
+.attribute__name {
+  font-size: 20px;
+  font-weight: 700;
+  margin-right: 30px;
+}
+
+.attribute__option {
+  font-size: 18px;
+}
+
+.color__square {
+  width: 35px;
+  height: 33px;
+  border: 1px solid gray;
+}
+
+.plus__minus:hover {
+  background: #1d1f22;
+  color: white;
+  transition: 0.3s all ease-in-out;
+  font-size: 130%;
+}
+
+.total__container {
+  margin: 3px 100px;
+  padding: 20px;
+  font-weight: 500, Medium;
+  font-size: 24px;
+  line-height: 35px;
+}
+
+.total__text {
+  margin: 14px 0px;
+}
+
+.total__values {
+  font-weight: bold;
+  margin-left: 10px;
+}
+
+.order__button {
+  width: 280px;
+  height: 43px;
+  background-color: #5ece7b;
+  color: white;
+  border: none;
+  font-weight: 600, Semi Bold;
+}

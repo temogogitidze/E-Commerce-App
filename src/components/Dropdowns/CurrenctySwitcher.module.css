@@ -1,0 +1,19 @@
+.container {
+  margin-left: 13px;
+}
+
+.currencies {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 200%;
+  margin: 12px 10px;
+  cursor: pointer;
+}
+
+.currencies:hover {
+  color: #5ece7b;
+}
+
+.active {
+  color: #5ece7b;
+}
